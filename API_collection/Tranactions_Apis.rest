@@ -1,0 +1,25 @@
+POST http://localhost:8080/transaction
+Content-Type: application/json
+
+{
+    "account_id": "641000000014",
+    "amount": 100.0,
+    "type": "debit",
+    "description": "Test transaction"
+
+}
+
+###
+
+# 2.  Create a new transaction
+GET  http://localhost:8080/transactions/6829faccfd766a40fd652760
+Content-Type: application/json
+
+###
+GET http://localhost:8080/transactions_list/641000000014
+Content-Type: application/json
+
+{
+    "start_date":"17/05/2025",
+    "end_date":"18/05/2025"
+}

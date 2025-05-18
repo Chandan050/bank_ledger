@@ -1,0 +1,21 @@
+
+
+
+
+GET http://localhost:8080/account/641000000014
+Content-Type: application/json
+
+
+
+POST http://localhost:8080/account
+Content-Type: application/json
+
+{
+    "name": "jade",
+    "balance": 1000.0,
+    "address": "123 1st main",
+    "phone_number":123456789
+
+}
+
+
